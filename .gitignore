@@ -1,0 +1,6 @@
+/.bundle
+/.config
+/vendor
+auth.yml
+*.log
+Gemfile.lock
