@@ -1,12 +1,18 @@
 # 使用Markdown写WIKI支持文件上传及简单密码验证
- 
+  
+## 界面效果图
+
+![如何插入并上传图片](http://7xl5z9.com1.z0.glb.clouddn.com/1.png)
+<!-- ![使用本地自己上传文件](../uploads/1.png) -->
+
+
 ##使用步骤
  
 ### 安装 
 把内容克隆到本地  /var/www目录下
 
 ```console
-git clone git@github.com:cheenwe/wiki.git /var/www/wiki
+git clone git@github.com:cheenwe/wiki.git /var/www
 ```
 
 ### 安装Gem 文件
@@ -74,5 +80,6 @@ PATH = File.join(File.dirname(__FILE__), "..")
 repo = Git.open(PATH)
 repo.push(repo.remote('origin'))
 ```
- 
-![如何插入并上传图片](../uploads/1.png)
+
+
+## 欢迎贡献
