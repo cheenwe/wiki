@@ -1,5 +1,4 @@
-
-[toc]
+[TOC]
 
 # 使用Markdown写WIKI支持文件上传及简单密码验证
   
