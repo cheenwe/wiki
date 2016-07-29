@@ -18,7 +18,7 @@ Precious::App.set(:gollum_path, gollum_path)
 Precious::App.set(:default_markup, :markdown)
 Precious::App.set(:wiki_options, {
   :css           => true,
-  :live_preview  => false,
+  :live_preview  => true,
   :mathjax       => true,
   :allow_uploads => true,
   :universal_toc => true,
